@@ -1,29 +1,39 @@
 # Portfolio
+Ce projet est un site portfolio créé avec Vue.js.
+L’objectif est de partager à mes pairs mes compétences fraichement acquises entre terme de dévellopement web et web mobile. 
 
-This template should help get you started developing with Vue 3 in Vite.
+## Prérequis
 
-## Recommended IDE Setup
+Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur votre système :
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Node.js : [Télécharger Node.js](https://nodejs.org/)
+- npm (gestionnaire de paquets Node.js) : npm est généralement installé automatiquement avec Node.js.
 
-## Customize configuration
+## Installation
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Clonez ce dépôt sur votre machine locale :
+   git clone https://github.com/votre-utilisateur/portfolio.git
+   
+Accédez au répertoire du projet :
+   cd portfolio
 
-## Project Setup
+Installez les dépendances nécessaires avec npm :
+   npm install
 
-```sh
-npm install
-```
+## Lancement du projet
 
-### Compile and Hot-Reload for Development
+Une fois que les dépendances sont installées, vous pouvez démarrer le serveur de développement en exécutant la commande suivante :
+   npm run dev
 
-```sh
-npm run dev
-```
+Cela lancera le serveur de développement de Vue.js. Vous pourrez accéder à votre site à l'adresse http://localhost:5173 dans votre navigateur.
 
-### Compile and Minify for Production
+## Construction du projet pour la production
 
-```sh
-npm run build
-```
+Pour construire le projet pour la production, exécutez la commande suivante :
+   npm run build
+
+Cela créera une version optimisée de votre site dans le répertoire dist/.
+
+Auteur
+
+Saumet David
