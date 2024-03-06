@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div @click="close">
        <h1>Mon CV</h1>
        <p>Celui-ci a été créé le 07 janvier 2024.</p>
        <p>J'ai utilisé l'application VScode afin de rédiger mes pages HTML et CSS.</p>
@@ -7,7 +7,7 @@
        <p>Mon CV est consultable à https://cv.DS30190.fr/</p>
        <img src="@/assets/images/Photocv.jpg" alt="Mon cv" width="300" height="450" >
        <br />
-       <button class="close" @click="fermer">Close</button>
+       <button class="close"  @click="close" >Close</button>
        
     </div>
 </template>
@@ -16,12 +16,11 @@
 export default {
   name: 'MonCv',
   methods: {
-  fermer() {
+  close() {
     window.location.href = './projects'; 
   }
-}
   }
-
+}
 </script>
 
 <style>
