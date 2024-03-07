@@ -1,5 +1,5 @@
 <template>
-    <router-link to="/mon-cv">Mon cv est celui ci</router-link>
+    <router-link to="/mon-cv">Mon Curriculum Vitae</router-link>
 </template>
 
 <script>

@@ -9,6 +9,7 @@
       <img src="@/assets/images/Cahier.jpg" alt="Cahier" width="100" height="150" >
       <br />
       <docu></docu>
+      <img src="@/assets/images/Dyn.jpg" alt="Dynamiser" width="100" height="150" >
     </div>
   </template>
 
@@ -40,7 +41,8 @@ export default {
       align-items: center;
     }
     .spacer {
-    height: 5rem; /* Hauteur de l'espace de séparation */
+    height: 3rem; /* Hauteur de l'espace de séparation */
   }
   }
+  
   </style>
