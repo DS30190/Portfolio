@@ -3,8 +3,10 @@
       <h1>Mes projets</h1>
       <div class="spacer"></div>
       <cv></cv>
+      <img src="@/assets/images/Photocv.jpg" alt="Mon cv" width="100" height="150" >
       <br />
       <cahier></cahier>
+      <img src="@/assets/images/Cahier.jpg" alt="Cahier" width="100" height="150" >
       <br />
       <docu></docu>
     </div>
@@ -38,7 +40,7 @@ export default {
       align-items: center;
     }
     .spacer {
-    height: 10rem; /* Hauteur de l'espace de séparation */
+    height: 5rem; /* Hauteur de l'espace de séparation */
   }
   }
   </style>
