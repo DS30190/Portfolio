@@ -4,6 +4,6 @@
 
 <script>
 export default {
-  name : 'cahier'
+  name : 'CahierCharges'
 }
 </script>

@@ -6,7 +6,7 @@
       <br />
       <cahier></cahier>
       <br />
-      
+      <docu></docu>
     </div>
   </template>
 
@@ -14,12 +14,14 @@
 // Importez le composant cv.vue
 import Cv from "@/components/Cv.vue";
 import Cahier from "@/components/Cahier.vue";
+import Docu from "@/components/Docu.vue"
 
 export default {
   components: {
     // Déclarez le composant cv.vue dans votre vue projets.vue
     Cv,
-    Cahier
+    Cahier,
+    Docu
   },
 
   // Autres options de votre composant projets.vue
