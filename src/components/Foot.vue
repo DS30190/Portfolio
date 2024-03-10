@@ -2,10 +2,10 @@
     <footer>
       <!-- Icônes des réseaux sociaux -->
       <div class="social-icons">
-        <a href="https://fr.linkedin.com/"><i class="fa-brands fa-linkedin" style="font-size: 24px;"></i></a>
-        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a> 
-        <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
-        <!-- Ajoutez d'autres icônes et liens vers vos réseaux sociaux ici -->
+      <a href="https://linkedin.com" target="_blank"><font-awesome-icon icon="fa-brands fa-linkedin" /></a>
+      <a href="https://twitter.com" target="_blank"><font-awesome-icon icon="fa-brands fa-twitter" /></a>
+      <a href="https://github.com" target="_blank"><font-awesome-icon icon="fa-brands fa-github" /></a>
+      
       </div>
       <!-- Date de dernière mise à jour -->
       <p>Dernière mise à jour : {{ lastUpdated }}</p>
@@ -13,8 +13,13 @@
   </template>
   
   <script>
+  import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+
   export default {
     name: 'Foot',
+    components: {
+        FontAwesomeIcon
+    },
     data() {
       return {
         lastUpdated: '2024-03-10' // Vous pouvez initialiser cette valeur ou la mettre à jour dynamiquement dans votre application
