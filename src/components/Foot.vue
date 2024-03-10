@@ -2,7 +2,7 @@
     <footer>
       <!-- Icônes des réseaux sociaux -->
       <div class="social-icons">
-        <a href="https://fr.linkedin.com/"><i class="fa-brands fa-linkedin" style="font-size: 5px;"></i></a>
+        <a href="https://fr.linkedin.com/"><i class="fa-brands fa-linkedin" style="font-size: 24px;"></i></a>
         <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a> 
         <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
         <!-- Ajoutez d'autres icônes et liens vers vos réseaux sociaux ici -->
