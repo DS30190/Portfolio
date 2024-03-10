@@ -2,10 +2,11 @@
     <div class="about">
       <div class="spacer"></div>
       <h1>Contactez moi !</h1>
-      
-      <div class="spacer"></div>
+      <div class="spacer2"></div>
+      <p id="message"></p>
+      <div class="spacer2"></div>
         <!-- FORM  -->
-    <form id="myForm" action="#" method="POST" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+    <form id="myForm" @submit.prevent="handleClick" action="#" method="POST" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
       <div class="flex-row">  
           <div class="form-section">
             <label for="first-name" class="block text-sm font-medium text-warm-gray-900">Prénom</label>
@@ -38,7 +39,7 @@
           </div>
           
           <div class="sm:col-span-2 sm:flex sm:justify-end">
-            <button  type="submit" class="mt-2 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-teal-500 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 sm:w-auto">
+            <button  type="submit" class="mt-2 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-teal-500 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 sm:w-auto" @click="handleClick">
               Envoyer
             </button>
           </div>   
@@ -95,5 +96,20 @@ button {
     .spacer {
     height: 8rem; /* Hauteur de l'espace de séparation */
   }
+  .spacer2 {
+    height: 4rem; /* Hauteur de l'espace de séparation */
+  }
 </style>
 
+<script>
+
+export default {
+  methods: {
+    handleClick(event) {
+      const messageElement = document.getElementById("message");
+      messageElement.textContent = "Votre message a bien été envoyé !";
+    }
+  }
+};
+
+</script>
