@@ -11,7 +11,7 @@ defineProps({
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-     ! Web Developper Freelance Fullstack !
+      Web Developper Fullstack 
     </h3>
   </div>
 </template>
@@ -26,6 +26,7 @@ h1 {
 
 h3 {
   font-size: 1.2rem;
+  
 }
 
 .greetings h1,

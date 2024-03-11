@@ -5,7 +5,7 @@
       <a href="https://linkedin.com" target="_blank"><font-awesome-icon icon="fa-brands fa-linkedin" /></a>
       <a href="https://twitter.com" target="_blank"><font-awesome-icon icon="fa-brands fa-twitter" /></a>
       <a href="https://github.com" target="_blank"><font-awesome-icon icon="fa-brands fa-github" /></a>
-      
+      <div class="spacer"></div>
       </div>
       <!-- Date de dernière mise à jour -->
       <p>Dernière mise à jour : {{ lastUpdated }}</p>
@@ -30,8 +30,8 @@
   
   <style scoped>
 footer{
-    background-color: #782221;
-    color: white;
+    background-color: black;
+    color: #c5a97f;
     height: 100px;
     text-align: center;
     padding-top: 20px;
@@ -48,9 +48,13 @@ footer{
 }
 .fa-square-github{
     background-color: white;
-    color:#782221;
+    color:black;
+    object-fit: contain;
 }
 footer div:hover{
     opacity: 0.8;
 }
+.spacer {
+    height: 2rem; /* Hauteur de l'espace de séparation */
+  }
   </style>
