@@ -96,3 +96,16 @@ nav a:first-of-type {
   }
 }
 </style>
+
+<script>
+export default {
+  head() {
+    return {
+      title: 'David Saumet - Portfolio', 
+      meta: [
+        { name: 'description', content: 'Bienvenue sur le portfolio de David Saumet. Découvrez mes projets et mon parcours.' }
+      ]
+    }
+  }
+}
+</script>
