@@ -8,7 +8,7 @@ import Foot from './components/Foot.vue';
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <img src="@/assets/images/D S.jpg" alt="logo" class="logo" width="250" height="250" />
 
     <div class="wrapper">
       <HelloWorld msg="Hello, I am David Saumet" />
@@ -34,7 +34,7 @@ header {
 
 .logo {
   display: block;
-  margin: 0 auto 2rem;
+  margin: 0 auto;
 }
 
 nav {
