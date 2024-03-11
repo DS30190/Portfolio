@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import MonCV from '@/views/MonCv.vue'
 import CahierCharges from '@/views/CahierCharges.vue'
 import Docu from '@/views/Docu.vue'
+import NotFoundView from '@/views/NotFoundView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -42,6 +43,11 @@ const router = createRouter({
       path: '/docu',
       name: 'Docu',
       component: Docu
+    },
+    {
+      path: '/:catchAll(.*)', // Cette route capture toutes les URL non définies
+      name: 'NotFound',
+      component: NotFoundView
     }
   ]
 })

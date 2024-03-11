@@ -8,13 +8,13 @@ import Foot from './components/Foot.vue';
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <img src="@/assets/images/D S.jpg" alt="logo" class="logo" width="250" height="250" />
 
     <div class="wrapper">
-      <HelloWorld msg="Hi, I am David Saumet !" />
+      <HelloWorld msg="Hello, I am David Saumet" />
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/">Acceuil</RouterLink>
         <RouterLink to="/about">Contact</RouterLink>
         <RouterLink to="/projects">Projets</RouterLink>
       </nav>
@@ -34,7 +34,7 @@ header {
 
 .logo {
   display: block;
-  margin: 0 auto 2rem;
+  margin: 0 auto;
 }
 
 nav {
