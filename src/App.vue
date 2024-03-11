@@ -8,8 +8,9 @@ import Foot from './components/Foot.vue';
 
 <template>
   <header>
-    <img src="@/assets/images/D S.jpg" alt="logo" class="logo" width="500" height="500" />
-
+    <RouterLink to="/">
+      <img src="@/assets/images/D S.jpg" alt="logo" class="logo" width="500" height="500" />
+    </RouterLink>
     <div class="wrapper">
       <HelloWorld msg="David Saumet" />
 
