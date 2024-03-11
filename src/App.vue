@@ -61,7 +61,7 @@ nav a {
   display: inline-block;
   padding: 0 1rem;
   border-left: 1px solid var(--color-border);
-  color: #c5a97f ;
+  color: #c5a97f;
 }
 
 nav a:first-of-type {
