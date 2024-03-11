@@ -11,10 +11,10 @@ import Foot from './components/Foot.vue';
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="Hi, I am David Saumet !" />
+      <HelloWorld msg="Hello, I am David Saumet" />
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/">Acceuil</RouterLink>
         <RouterLink to="/about">Contact</RouterLink>
         <RouterLink to="/projects">Projets</RouterLink>
       </nav>
