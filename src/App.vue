@@ -8,10 +8,10 @@ import Foot from './components/Foot.vue';
 
 <template>
   <header>
-    <img src="@/assets/images/D S.jpg" alt="logo" class="logo" width="250" height="250" />
+    <img src="@/assets/images/D S.jpg" alt="logo" class="logo" width="500" height="500" />
 
     <div class="wrapper">
-      <HelloWorld msg="Hello, I am David Saumet" />
+      <HelloWorld msg="David Saumet" />
 
       <nav>
         <RouterLink to="/">Acceuil</RouterLink>
@@ -19,6 +19,7 @@ import Foot from './components/Foot.vue';
         <RouterLink to="/projects">Projets</RouterLink>
       </nav>
     </div>
+    
   </header>
 
   <RouterView />
@@ -42,10 +43,14 @@ nav {
   font-size: 12px;
   text-align: center;
   margin-top: 2rem;
+  color: #c5a97f;
+
 }
 
 nav a.router-link-exact-active {
-  color: var(--color-text);
+
+  text-decoration: underline;
+
 }
 
 nav a.router-link-exact-active:hover {
@@ -56,6 +61,7 @@ nav a {
   display: inline-block;
   padding: 0 1rem;
   border-left: 1px solid var(--color-border);
+  color: #c5a97f;
 }
 
 nav a:first-of-type {

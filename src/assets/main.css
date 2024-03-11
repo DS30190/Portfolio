@@ -1,5 +1,11 @@
 @import './base.css';
 
+body, html {
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  color: #c5a97f;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
@@ -10,7 +16,7 @@
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: #76d4c1;
   transition: 0.4s;
   padding: 3px;
 }

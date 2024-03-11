@@ -34,4 +34,7 @@ b {
 .spacer {
     height: 5rem; /* Hauteur de l'espace de séparation */
   }
+  .close {
+background-color: #557870;
+  } 
 </style>

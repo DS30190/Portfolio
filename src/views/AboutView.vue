@@ -63,7 +63,7 @@ button {
       padding: 10px;
       border: none;
       border-radius: 5px;
-      background-color: hsla(160, 100%, 37%, 1);
+      background-color: #557870;
       color: #fff;
       font-size: 16px;
       cursor: pointer;
@@ -98,6 +98,9 @@ button {
   }
   .spacer2 {
     height: 4rem; /* Hauteur de l'espace de séparation */
+  }
+  .message {
+font-size: 1.5em;
   }
 </style>
 
