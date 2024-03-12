@@ -39,6 +39,6 @@ import EcosystemIcon from './icons/IconEcosystem.vue'
 
 <style>
 .spacer {
-    height: 4rem; /* Hauteur de l'espace de séparation */
+    height: 4rem; 
   }
 </style>

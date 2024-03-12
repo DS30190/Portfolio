@@ -70,12 +70,12 @@ button {
     }
     .flex-row {
       display: flex;
-      justify-content: space-between; /* Espacer les éléments enfants */
+      justify-content: space-between; 
       margin-bottom: 20px;
     }
 
     .flex-row > div {
-      flex: 1; /* Les éléments enfants prennent une largeur égale */
+      flex: 1; 
     }
 
     .form-section input,
@@ -89,15 +89,15 @@ button {
       box-sizing: border-box;
     }
 
-    /* Espacement entre les champs Nom et Prénom */
+    
     .flex-row > div:not(:last-child) {
       margin-right: 8px;
     }
     .spacer {
-    height: 8rem; /* Hauteur de l'espace de séparation */
+    height: 8rem; 
   }
   .spacer2 {
-    height: 2rem; /* Hauteur de l'espace de séparation */
+    height: 2rem; 
   }
   .message {
 font-size: 1.5em;

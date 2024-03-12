@@ -1,13 +1,13 @@
 <template>
     <footer>
-      <!-- Icônes des réseaux sociaux -->
+     
       <div class="social-icons">
       <a href="https://linkedin.com" target="_blank"><font-awesome-icon icon="fa-brands fa-linkedin" /></a>
       <a href="https://twitter.com" target="_blank"><font-awesome-icon icon="fa-brands fa-twitter" /></a>
       <a href="https://github.com" target="_blank"><font-awesome-icon icon="fa-brands fa-github" /></a>
       <div class="spacer"></div>
       </div>
-      <!-- Date de dernière mise à jour -->
+     
       <p>Dernière mise à jour : {{ lastUpdated }}</p>
     </footer>
   </template>
