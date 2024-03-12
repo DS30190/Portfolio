@@ -97,7 +97,7 @@ button {
     height: 8rem; /* Hauteur de l'espace de séparation */
   }
   .spacer2 {
-    height: 4rem; /* Hauteur de l'espace de séparation */
+    height: 2rem; /* Hauteur de l'espace de séparation */
   }
   .message {
 font-size: 1.5em;

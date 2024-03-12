@@ -24,7 +24,6 @@ import Foot from './components/Foot.vue';
   </header>
 
   <RouterView />
-
   <Foot />
 </template>
 

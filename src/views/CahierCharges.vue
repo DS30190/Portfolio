@@ -30,6 +30,7 @@ export default {
 }
 b {
     font-weight: bold;
+    text-decoration: underline;
 }
 .spacer {
     height: 5rem; /* Hauteur de l'espace de séparation */
@@ -37,4 +38,7 @@ b {
   .close {
 background-color: #557870;
   } 
+  h1{
+    color: #557870;
+  }
 </style>

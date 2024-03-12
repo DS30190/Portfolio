@@ -41,8 +41,8 @@ export default {
       align-items: center;
     }
     .spacer {
-    height: 3rem; /* Hauteur de l'espace de séparation */
+    height: 2rem; /* Hauteur de l'espace de séparation */
   }
   }
-  
+
   </style>

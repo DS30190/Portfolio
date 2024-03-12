@@ -33,8 +33,8 @@ footer{
     background-color: black;
     color: #c5a97f;
     height: 100px;
-    text-align: center;
-    padding-top: 20px;
+    text-align: left;
+    padding-top: 10px;
 }
 
 .fa-linkedin{
