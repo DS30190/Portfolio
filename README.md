@@ -1,6 +1,6 @@
 # Portfolio
 Ce projet est un site portfolio créé avec Vue.js.
-L’objectif est de partager à mes pairs mes compétences fraichement acquises entre terme de dévellopement web et web mobile. 
+L’objectif est de partager auprès des professionnels du secteur mes compétences fraîchement acquises entre terme de dévellopement web et web mobile. 
 
 ## Prérequis
 
@@ -23,8 +23,11 @@ Installez les dépendances nécessaires avec npm :
 ## Lancement du projet
 
 Une fois que les dépendances sont installées, vous pouvez démarrer le serveur de développement en exécutant la commande suivante :
+
    npm run dev
 
+   npm run serve
+   
 Cela lancera le serveur de développement de Vue.js. Vous pourrez accéder à votre site à l'adresse http://localhost:5173 dans votre navigateur.
 
 ## Construction du projet pour la production
