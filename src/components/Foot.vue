@@ -55,6 +55,6 @@ footer div:hover{
     opacity: 0.8;
 }
 .spacer {
-    height: 2rem; /* Hauteur de l'espace de séparation */
+    height: 2rem; 
   }
   </style>
