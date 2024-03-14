@@ -24,8 +24,12 @@
       return {
         lastUpdated: '2024-03-10' // Vous pouvez initialiser cette valeur ou la mettre à jour dynamiquement dans votre application
       }
-    }
-  }
+    },
+  
+  mounted() {
+   this.lastUpdated = new Date().toISOString().slice(0, 10); // Format YYYY-MM-DD
+   }
+}
   </script>
   
   <style scoped>

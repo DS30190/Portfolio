@@ -105,7 +105,6 @@ font-size: 1.5em;
 </style>
 
 <script>
-
 export default {
   methods: {
     handleClick(event) {
@@ -114,5 +113,4 @@ export default {
     }
   }
 };
-
 </script>
